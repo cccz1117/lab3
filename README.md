@@ -1,10 +1,10 @@
 # Lab 3: Evaluation of Llama Models and Qwen2.5-14B-Instruct
 
 ## Overview
-This repository contains the code and results for evaluating the performance of three Llama models (Llama 3.1 8B, 70B, and 405B) and Qwen2.5-14B-Instruct on a custom set of challenging questions. The questions include multiple-choice, fill-in-the-blank, and a short-answer problem, designed to test the reasoning, linguistic, and contextual understanding capabilities of the models.
+This repository contains the code and results for evaluating the performance of three Llama models (Llama 3.1 8B, 70B, and 405B) and Qwen2.5-14B-Instruct on a custom set of challenging questions. The questions include multiple-choice, T/F, and a short-answer problem, designed to test the reasoning, linguistic, and contextual understanding capabilities of the models.
 
 ## File Descriptions
-- **30_questions.json**: Contains 29 multiple-choice and fill-in-the-blank questions used for evaluation.
+- **30_questions.json**: Contains 29 multiple-choice and T/F questions used for evaluation.
 - **key.txt**: The answer key for the 29 questions, used to score the models and human responses.
 - **compare.ipynb**: Jupyter Notebook used to score and compare the performance of the models and human responses. Includes accuracy calculations and detailed analysis.
 - **l3.1-8B.py**: Python script for running evaluations on the Llama 3.1 8B model locally.
