@@ -8,7 +8,7 @@ This repository contains the code and results for evaluating the performance of 
 - **key.txt**: The answer key for the 29 questions, used to score the models and human responses.
 - **compare.ipynb**: Jupyter Notebook used to score and compare the performance of the models and human responses. Includes accuracy calculations and detailed analysis.
 - **l3.1-8B.py**: Python script for running evaluations on the Llama 3.1 8B model locally.
-- **test-l3.1-70B.py**: Never modified it(provided by the professor).
+- **test-l3.1-70B.py**: Never modified it (provided by the professor).
 - **test-l3.1-70B.py**: Python script for running evaluations on the Llama 3.1 70B model (provided by the professor).
 - **test-l3.1-405B.py**: Python script for running evaluations on the Llama 3.1 405B model (provided by the professor).
 - **qwq.py**: Python script for running evaluations on the Qwen2.5-14B-Instruct model locally using LM Studio.
